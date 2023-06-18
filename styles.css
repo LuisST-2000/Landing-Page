@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&display=swap');
+
+
+
+
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif
+}
+
+.presentation{
+    background: linear-gradient(357.17deg, #6B9B7E 15.6%, #171810 95.74%);
+}
+
+
+nav {
+
+        color: #fff;
+
+      }
+  
+nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 40px;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 100px;
+        align-items: center;
+      }
+
+nav li {
+        margin-right: 28px;
+        
+      }
+  
+nav a {
+        display: block;
+        color: #F1D4D5;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 700;
+      }
+
+.logo img{
+    width: 200px;
+    height: auto;
+    padding-right: 306px;
+}
+
+
+
+
+.contact{
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 10px;
+    width: 112px;
+    height: 35px;
+    left: 1078px;
+    top: 43px;
+    background: #167D40;
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    box-shadow: 0px 3.06849px 3.06849px rgba(0, 0, 0, 0.25), -2.30137px 1.53425px 3.06849px rgba(0, 0, 0, 0.25), 3.06849px 4.60274px 3.06849px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.container{
+    height: 340px;
+    left: 0px;
+    top: 0px;
+}
+
+.quest{
+    position: absolute;
+width: 395px;
+height: 140px;
+left: 112px;
+top: 128px;
+
+font-family: 'Georama';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 109.52%;
+/* or 70px */
+
+
+color: #FFFFFF;
+
+}
+
+.quest-paragraph{
+position: absolute;
+width: 339px;
+height: 80px;
+left: 112px;
+top: 296px;
+margin-top: 30px;
+
+font-family: 'Inria Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140.52%;
+/* or 20px */
+
+
+color: #FFFFFF;
+}
+
+li{
+    list-style: none;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    background: #FFC729;
+    border-radius: 5px;
+
+}
+
+.circles{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.balls{
+    width: 80px;
+}
+
+.circle-ball{
+    position: absolute;
+    width: 339px;
+    height: 80px;
+    left: 568px;
+    top: 320px;
+
+}
+
+
+.comment{
+    position: absolute;
+    width: 296px;
+    height: 125px;
+    left: 730px;
+    top: 320px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.photo{
+    position: absolute;
+
+    background-color: #C2DD04;
+    width: 52px;
+    height: 54px;
+    border-radius: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2.72947px 2.72947px rgba(0, 0, 0, 0.25), -4.0942px -4.0942px 5.45893px rgba(255, 255, 255, 0.1), -1.36473px -1.36473px 1.36473px rgba(255, 255, 255, 0.05), 3.41183px 3.41183px 4.77657px rgba(0, 0, 0, 0.25);
+}
+.image{
+
+width: 42.31px;
+height: 45.72px;
+left: 18.34px;
+top: 16.06px;
+margin: 4.5px;
+background: url(persona.png);
+border-radius: 15px;
+background-size: 100% 100%;
+background-repeat:no-repeat;
+background-size: cover;
+
+}
+
+.text{
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 17px;
+}
+.red{
+    width: 6px;
+    height: 12px;
+    background-color: red;
+    border-radius: 2px;
+}
+.white{
+    width: 6px;
+    height: 12px;
+    background-color:white;
+}
+
+.bandera{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 13px;
+}
+
+.text-1{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+.name{
+    margin: 0;
+}
+
+.email{
+    font-family: 'Inria Serif';
+font-style: normal;
+font-weight: 300;
+font-size: 10.4565px;
+}
+
+.text-comment{
+font-family: 'Inria Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 9.65217px;
+line-height: 140%;
+padding-right: 4px;
+}
+
+.celebrate-guy{
+    width: 132px;
+    height: 263px;
+    padding-top: 78px;
+    padding-left: 1060px;
+}
+
+.socios{
+    position: absolute;
+width: 188px;
+height: 48px;
+left: 112px;
+top: 506px;
+color: white;
+background: #1E1E1E;
+box-shadow: 0px 3.06849px 3.06849px rgba(0, 0, 0, 0.25), -2.30137px 1.53425px 3.06849px rgba(0, 0, 0, 0.25), 3.06849px 4.60274px 3.06849px rgba(0, 0, 0, 0.25);
+border-radius: 7.67123px;
+
+font-family: 'Inria Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 140.52%;
+/* or 21px */
+
+}
+
+.container-2{
+    background: white;
+}
+
+.box-brands{
+    padding-top: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.platanitos img{
+    width: 186px;
+    height: 50px;
+}
+
+.topitop img{
+    width: 126px;
+    height: 60px;
+}
+
+.renzo img{
+    width: 163px;
+    height: 50px;
+}
+
+.adidas img{
+    width: 224px;
+    height: 50px;
+}
+
+.box-services{
+    margin-top: 35px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+}
+.square{
+    width: 163px;
+    height: 116px;
+    background-color: #F6F6EF;
+    text-align: center;
+    padding-top: 12px;
+    box-shadow: -3.29293px -3.29293px 4.39057px rgba(255, 255, 255, 0.1), -1.09764px -1.09764px 1.09764px rgba(255, 255, 255, 0.05), 0.548822px 0.548822px 1.09764px rgba(0, 0, 0, 0.25), 2.74411px 2.74411px 3.84175px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: 0;
+
+}
+
+.square .insignia{
+    width: 55px;
+    height: 72px;
+}
+
+.square .camion{
+    width: 92px;
+    height: 70px;
+}
+
+
+.square img{
+    width: 76px;
+    height: 76px;
+}
+
+.service-text{
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+.box-content{
+    margin-top: 60px;
+    margin-left: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-content h1{
+    margin: 0;
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    color: #000000;
+}
+.box-content p{
+    margin-top: 20px;
+    width: 456px;
+    height: 64px;
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+}
+
+.box-content button{
+    width: 145px;
+    height: 35px;
+    color: white;
+    background: #1E1E1E;
+    box-shadow: 0px 3.06849px 3.06849px rgba(0, 0, 0, 0.25), -2.30137px 1.53425px 3.06849px 
+                rgba(0, 0, 0, 0.25), 3.06849px 4.60274px 3.06849px rgba(0, 0, 0, 0.25);
+}
+
+.box-content img{
+    width: 558px;
+height: 372px;
+text-align: right;
+}
+
+.bags{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bags img{
+    width: 197px;
+    height: 182px;
+
+}
+
+.collection{
+    margin: 60px;
+}
+
+.collection h1, h3{
+    text-align: center;
+    margin: 0;
+    font-family: 'Georama';
+    font-style: normal;
+}
+
+.collection h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: #C29003;
+}
+
+.collection h1{
+    font-weight: 700;
+    font-size: 36px;
+    color: #A93441;
+}
+
+
+.circle-ball-1{
+    position: absolute;
+    margin-top: 25px;
+    z-index: 1;
+    left: 125px;
+}
+.balls-1{
+    width: 200px;
+    padding: 0;
+}
+
+.galery{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    z-index: 3;
+    justify-content: center;
+    padding-top: 52px;
+
+}
+
+.box{
+    width: 255px;
+    height: 295px;
+    background-color: #6B9B7E;
+    text-align: center;
+    border: 2px solid #F6F6EF;
+    box-shadow: -3.29293px -3.29293px 4.39057px rgba(255, 255, 255, 0.1), 
+    -1.09764px -1.09764px 1.09764px rgba(255, 255, 255, 0.05), 0.548822px 0.548822px 1.09764px rgba(0, 0, 0, 0.25),
+     2.74411px 2.74411px 3.84175px rgba(0, 0, 0, 0.25);
+     border-radius: 5px;
+     margin-left: 20px;
+}
+
+.box img{
+    padding-top: 12px;
+    width: 140px;
+    height: 195px;
+}
+
+.box-text{
+    padding-left: 10px;
+}
+
+.box h4{
+    text-align: initial;
+    margin: 0;
+    font-family: 'Georama';
+    font-style: normal;
+    font-weight: 600;
+    color: #06FE69;
+}
+
+.prices{
+    padding-top: 2px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.prices h5{
+    margin: 0;
+    margin-right: 14px;
+}
+
+.stars img{
+    width: 9.85px;
+    height: 9.85px;
+}
+
+.stars ul{
+    margin: 0;
+    padding-left: 0px;
+    text-align: initial;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.box li img{
+    padding: 0;
+}
+
+.colors{
+    display: flex;
+    margin-top: 4px;
+    align-items: center;
+
+}
+
+.cols{
+    width: 13px;
+    height: 13px;
+    background: #000000;
+    border: 1.90278px solid #FFFFFF;
+    box-shadow: 0px 1.94622px 1.94622px rgba(0, 0, 0, 0.25), -1.45967px 0.97311px 1.94622px rgba(0, 0, 0, 0.25), 1.94622px 2.91933px 1.94622px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    margin-right: 6px;
+}
+
+.galery button{
+    width: 60.89px;
+    height: 19.66px;
+    background: #CDE3F9;
+    box-shadow: 0px 1.94622px 1.94622px rgba(0, 0, 0, 0.25), -1.45967px 0.97311px 1.94622px rgba(0, 0, 0, 0.25),
+     1.94622px 2.91933px 1.94622px rgba(0, 0, 0, 0.25);
+    border-radius: 12.6852px;
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    border: 0;
+}
+
+.circle-ball-2{
+    position: absolute;
+    z-index: -2;
+    right: 104px;
+    top: 220px;
+}
+
+footer{
+    margin-top: 100px;
+    background-image: url(Rectangle\ 13.svg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+footer h1{
+    margin: 0;
+}
+
+
+.line{
+    margin-top: 5px;
+    background: white;
+    width: 180px;
+    height: 7px;
+    border-radius: 10px;
+}
+
+footer li{
+    margin-top: 12px;
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+
+footer h1{
+    font-family: 'Georama';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.footer-logo{
+    background-image: url(logo.svg);
+    width: 172px;
+    height: 150px;
+}
+.footer-content{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 250px; 
+    padding-top: 130px;
+}
+
